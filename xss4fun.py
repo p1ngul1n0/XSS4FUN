@@ -16,7 +16,7 @@ def init():
     global browser
     global url
     options = Options()
-    options.headless = False
+    options.headless = True
     options.add_argument('-safe-mode')
     browser = webdriver.Firefox(options=options)
     print (' > Firefox headless started!')

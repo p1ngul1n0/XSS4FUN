@@ -13,3 +13,7 @@ Cross-Site-Scripting just for fun.
     - To include malicious javascript code in page.
   - **\<img src=anything onerror=alert(1) >**
     - When the **<script>** is being filtered by the Web Application, you can use javascript events.
+ 
+## Automated Detection
+  ## xss4fun.py
+Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made. 

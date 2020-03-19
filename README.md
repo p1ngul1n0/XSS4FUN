@@ -15,8 +15,8 @@ Cross-Site-Scripting just for fun.
     - When the **<script>** is being filtered by the Web Application, you can use javascript events.
  
 ## Automated Detection
-  - xss4fun.py
-     - Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made.
+  ## xss4fun.py
+  Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made.
 
 ## Mitigations    
   ## PHP

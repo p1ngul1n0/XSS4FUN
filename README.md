@@ -1,7 +1,7 @@
 # XSS4FUN :cookie:
 Cross-Site-Scripting just for fun.
 
-## Cross-Site-Scripting Applications:
+## Cross-Site-Scripting Utils:
   - Steal cookies for session hijacking.
   - Modify Webpage to perform phishing.
   - Inject malicious code.

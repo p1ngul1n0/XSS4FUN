@@ -31,11 +31,6 @@ Cross-Site-Scripting just for fun.
   pressed_key = e.key;
   }
   ```
- 
-## Automated Detection
-  ## xss4fun.py
-  Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made.
-
 ## Mitigations    
   ## PHP
    Using **htmlspecialchars** to convert special characters to HTML.
@@ -43,3 +38,7 @@ Cross-Site-Scripting just for fun.
   $word = htmlspecialchars($_GET['word']);
   ```
   So this **<script>alert(1)</script>** becomes this **\&lt;script\&gt;alert(1)\&lt;/script&gt**
+
+## Automated Detection
+  ## xss4fun.py
+  Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made.

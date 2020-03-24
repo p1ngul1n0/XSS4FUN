@@ -29,6 +29,7 @@ Cross-Site-Scripting just for fun.
   ```
   document.addEventListener("keydown",function(e){
   pressed_key = e.key;
+  }
   ```
  
 ## Automated Detection

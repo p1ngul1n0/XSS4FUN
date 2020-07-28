@@ -47,3 +47,8 @@ Cross-Site-Scripting just for fun.
 ## Automated Detection
   ## xss4fun.py
   Using selenium to find input fields and inject payloads, if the injection is sucessful, a printscreen is made.
+  
+## References
+ - ASP NET Server.HTMLEncode https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525347%28v%3dvs.90%29
+ - PHP html specialchars https://www.php.net/manual/en/function.htmlspecialchars.php
+  

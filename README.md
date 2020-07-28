@@ -37,6 +37,11 @@ Cross-Site-Scripting just for fun.
   ```
   $word = htmlspecialchars($_GET['word']);
   ```
+  ## ASP NET
+   Using **HtmlEncode** to convert special characters to HTML.
+  ```
+ user_input = System.Web.HttpUtility.HtmlEncode(user_input);
+  ```
   So this **<script>alert(1)</script>** becomes this **\&lt;script\&gt;alert(1)\&lt;/script&gt**
 
 ## Automated Detection
